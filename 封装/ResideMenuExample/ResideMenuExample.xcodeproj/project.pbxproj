@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25DE91231C9EF153006DABAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE91221C9EF153006DABAF /* main.m */; };
+		25DE91261C9EF153006DABAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE91251C9EF153006DABAF /* AppDelegate.m */; };
+		25DE912E1C9EF153006DABAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25DE912D1C9EF153006DABAF /* Assets.xcassets */; };
+		25DE91311C9EF153006DABAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25DE912F1C9EF153006DABAF /* LaunchScreen.storyboard */; };
+		25DE913F1C9EF179006DABAF /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE913A1C9EF179006DABAF /* RECommonFunctions.m */; };
+		25DE91401C9EF179006DABAF /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE913C1C9EF179006DABAF /* RESideMenu.m */; };
+		25DE91411C9EF179006DABAF /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE913E1C9EF179006DABAF /* UIViewController+RESideMenu.m */; };
+		25DE91461C9EF76D006DABAF /* ZAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE91451C9EF76D006DABAF /* ZAViewController.m */; };
+		25DE91491C9EF781006DABAF /* ZALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE91481C9EF781006DABAF /* ZALeftViewController.m */; };
+		25DE914C1C9EF793006DABAF /* ZARightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DE914B1C9EF793006DABAF /* ZARightViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25DE911E1C9EF153006DABAF /* ResideMenuExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResideMenuExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25DE91221C9EF153006DABAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25DE91241C9EF153006DABAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25DE91251C9EF153006DABAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25DE912D1C9EF153006DABAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25DE91301C9EF153006DABAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25DE91321C9EF153006DABAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25DE91391C9EF179006DABAF /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		25DE913A1C9EF179006DABAF /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		25DE913B1C9EF179006DABAF /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		25DE913C1C9EF179006DABAF /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		25DE913D1C9EF179006DABAF /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		25DE913E1C9EF179006DABAF /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		25DE91431C9EF6AE006DABAF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		25DE91441C9EF76D006DABAF /* ZAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZAViewController.h; sourceTree = "<group>"; };
+		25DE91451C9EF76D006DABAF /* ZAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZAViewController.m; sourceTree = "<group>"; };
+		25DE91471C9EF781006DABAF /* ZALeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZALeftViewController.h; sourceTree = "<group>"; };
+		25DE91481C9EF781006DABAF /* ZALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZALeftViewController.m; sourceTree = "<group>"; };
+		25DE914A1C9EF793006DABAF /* ZARightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZARightViewController.h; sourceTree = "<group>"; };
+		25DE914B1C9EF793006DABAF /* ZARightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZARightViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25DE911B1C9EF153006DABAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25DE91151C9EF153006DABAF = {
+			isa = PBXGroup;
+			children = (
+				25DE91201C9EF153006DABAF /* ResideMenuExample */,
+				25DE911F1C9EF153006DABAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25DE911F1C9EF153006DABAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25DE911E1C9EF153006DABAF /* ResideMenuExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25DE91201C9EF153006DABAF /* ResideMenuExample */ = {
+			isa = PBXGroup;
+			children = (
+				25DE91381C9EF179006DABAF /* RESideMenu */,
+				25DE91241C9EF153006DABAF /* AppDelegate.h */,
+				25DE91251C9EF153006DABAF /* AppDelegate.m */,
+				25DE91441C9EF76D006DABAF /* ZAViewController.h */,
+				25DE91451C9EF76D006DABAF /* ZAViewController.m */,
+				25DE91471C9EF781006DABAF /* ZALeftViewController.h */,
+				25DE91481C9EF781006DABAF /* ZALeftViewController.m */,
+				25DE914A1C9EF793006DABAF /* ZARightViewController.h */,
+				25DE914B1C9EF793006DABAF /* ZARightViewController.m */,
+				25DE912D1C9EF153006DABAF /* Assets.xcassets */,
+				25DE912F1C9EF153006DABAF /* LaunchScreen.storyboard */,
+				25DE91321C9EF153006DABAF /* Info.plist */,
+				25DE91211C9EF153006DABAF /* Supporting Files */,
+			);
+			path = ResideMenuExample;
+			sourceTree = "<group>";
+		};
+		25DE91211C9EF153006DABAF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25DE91221C9EF153006DABAF /* main.m */,
+				25DE91431C9EF6AE006DABAF /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25DE91381C9EF179006DABAF /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				25DE91391C9EF179006DABAF /* RECommonFunctions.h */,
+				25DE913A1C9EF179006DABAF /* RECommonFunctions.m */,
+				25DE913B1C9EF179006DABAF /* RESideMenu.h */,
+				25DE913C1C9EF179006DABAF /* RESideMenu.m */,
+				25DE913D1C9EF179006DABAF /* UIViewController+RESideMenu.h */,
+				25DE913E1C9EF179006DABAF /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25DE911D1C9EF153006DABAF /* ResideMenuExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25DE91351C9EF153006DABAF /* Build configuration list for PBXNativeTarget "ResideMenuExample" */;
+			buildPhases = (
+				25DE911A1C9EF153006DABAF /* Sources */,
+				25DE911B1C9EF153006DABAF /* Frameworks */,
+				25DE911C1C9EF153006DABAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResideMenuExample;
+			productName = ResideMenuExample;
+			productReference = 25DE911E1C9EF153006DABAF /* ResideMenuExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25DE91161C9EF153006DABAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = DengZA;
+				TargetAttributes = {
+					25DE911D1C9EF153006DABAF = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7KW8UU36CL;
+					};
+				};
+			};
+			buildConfigurationList = 25DE91191C9EF153006DABAF /* Build configuration list for PBXProject "ResideMenuExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25DE91151C9EF153006DABAF;
+			productRefGroup = 25DE911F1C9EF153006DABAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25DE911D1C9EF153006DABAF /* ResideMenuExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25DE911C1C9EF153006DABAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DE91311C9EF153006DABAF /* LaunchScreen.storyboard in Resources */,
+				25DE912E1C9EF153006DABAF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25DE911A1C9EF153006DABAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25DE91261C9EF153006DABAF /* AppDelegate.m in Sources */,
+				25DE91231C9EF153006DABAF /* main.m in Sources */,
+				25DE914C1C9EF793006DABAF /* ZARightViewController.m in Sources */,
+				25DE91401C9EF179006DABAF /* RESideMenu.m in Sources */,
+				25DE91461C9EF76D006DABAF /* ZAViewController.m in Sources */,
+				25DE913F1C9EF179006DABAF /* RECommonFunctions.m in Sources */,
+				25DE91411C9EF179006DABAF /* UIViewController+RESideMenu.m in Sources */,
+				25DE91491C9EF781006DABAF /* ZALeftViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		25DE912F1C9EF153006DABAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25DE91301C9EF153006DABAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25DE91331C9EF153006DABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25DE91341C9EF153006DABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25DE91361C9EF153006DABAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/DengZA/Desktop/fighting/ResideMenuExample/PrefixHeader.pch;
+				INFOPLIST_FILE = ResideMenuExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.cn.com.ResideMenuExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25DE91371C9EF153006DABAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/DengZA/Desktop/fighting/ResideMenuExample/PrefixHeader.pch;
+				INFOPLIST_FILE = ResideMenuExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xiao.cn.com.ResideMenuExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25DE91191C9EF153006DABAF /* Build configuration list for PBXProject "ResideMenuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE91331C9EF153006DABAF /* Debug */,
+				25DE91341C9EF153006DABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25DE91351C9EF153006DABAF /* Build configuration list for PBXNativeTarget "ResideMenuExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25DE91361C9EF153006DABAF /* Debug */,
+				25DE91371C9EF153006DABAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25DE91161C9EF153006DABAF /* Project object */;
+}
